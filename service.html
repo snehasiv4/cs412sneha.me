@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Home</title>
+    <link rel="preload" href="style2.css" as="style">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="service.html" class="active">Service</a></li>
+            <li><a href="contactAI.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="service-container">
+        <div class="service">
+            <img id="service1" src="pics/halVolunteer.jpg" alt="Service 1">
+            <p class="servbio">This past summer, our intern group at Halliburton volunteered at 
+                <a href= "https://www.houstonfoodbank.org/" >Houston Food Bank</a> to help package over 1,000 meals for victims affected by Hurrican Beryl
+            </p>
+        </div>
+        <div class="service">
+            <img id="service2" src="pics/JA.jpg" alt="Service 2">
+            <p class="servbio">As a part of <a href="https://www.jahouston.org/" >Junior Achievement</a>, I was able to teach elementary students 
+                about business principles and how businesses affect our region. It gave me the opportunity
+                to contribute to these students' interest in pursuing a career in business.
+            </p>
+        </div>
+        <div class="service">
+            <img id="service3" src="pics/secondMile.jpg" alt="Service 3">
+            <p class="servbio">I have volunteered at <a href="https://secondmile.org/"> Second Mile</a> mission center multiple times and helped package food,
+                label and clean food products, organize shelves, and much more. These packaged foods will be sent to people in need
+                or volunteers who will travel to send these packaged foods to donations and homeless shelters.
+            </p>
+        </div>
+    </div>
+    <div class="service-button">
+        <button onclick="toggleStyle()">Toggle Style</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

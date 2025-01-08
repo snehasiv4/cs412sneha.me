@@ -1,0 +1,281 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8A9A5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    padding: 1em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+nav ul li a.active {
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.home {
+    align-items: left;
+    border: 3px solid black;
+    padding: 2em;
+    background-color: white;
+    width: 900px;
+    height: 400px;
+    position: relative;
+}
+
+.cloud1 {
+    display: none;
+}
+
+.cloud2 {
+    display: none;
+}
+h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #333;
+}
+
+.homebio {
+    font-size: 1em;
+    color: black;
+    margin: 1em 0;
+    text-align: left;
+    padding-right: 450px;
+    overflow-wrap: break-word;
+}
+
+.home img {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 2em;
+    width: auto;
+    height: 430px;
+}
+
+.style2pic {
+    display: none;
+}
+
+.buttons-container {
+    justify-content: left;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1em;
+    background-color: #8b8d8c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2E5B42;
+}
+
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+    margin-top: 100px
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.project img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #000;
+    margin-right: 20px;
+}
+
+.projbio {
+    font-size: 1em;
+    color: #333;
+    flex: 1;
+    max-width: 600px;
+    word-wrap: break-word;
+}
+
+
+.tech-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px; 
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 550px; 
+    padding: 10px; 
+}
+
+.resume {
+    width: 35%;
+    text-align: right;
+}
+
+.skills-button {
+    position: absolute;
+    top: 2;
+    right: 0;
+    margin-right: 300px;
+}
+
+.tech-container img{
+    display: none;
+}
+
+.techbio {
+    margin-top: 200px;
+    color: black;
+}
+
+.clickable-image {
+    float: right;
+    margin-top: 50px;
+    width: 500px; 
+    height: auto; 
+    cursor: pointer; 
+    transition: opacity 0.3s; 
+}
+
+.clickable-image:hover {
+    opacity: 0.8; 
+}
+
+.techbio h1 {
+    color: black;
+    font-size: 2em;
+}
+
+.techbio p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.service-button{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 40px;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #000;
+    margin-bottom: 10px;
+}
+
+.servbio {
+    font-size: 1em;
+    color: black;
+}
+
+.contact-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+h1 {
+    margin-top: 0;
+    color: #333;
+    font-size: 2em;
+}
+.contact-info {
+    margin: 1em 0;
+}
+.contact-info a {
+    color: #4A7C59; 
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em 0;
+    transition: color 0.3s ease;
+}
+.contact-info a:hover {
+    color: #2E5B42;
+}
+.contact-info a img {
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.style2prompt-box {
+    display: none;
+}
+.style1prompt-box {
+    margin-top: 2em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #e7e7e7;
+    font-style: italic;
+    color: #555;
+}
+        

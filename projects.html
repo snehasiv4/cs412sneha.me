@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Projects</title>
+    <link rel="preload" href="style2.css" as="style">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">About Me</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contactAI.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="projects-container">
+        <div class="project">
+            <img id="project1" src="pics/HWO.png" alt="Project 1">
+            <p class="projbio">This past summer, I interned at Halliburton and got the opportunity to work on a project
+                that enabled real-time data communication between an oil well (<a href="https://www.halliburton.com/en/completions/well-intervention-and-diagnostics/hydraulic-workover">HWO</a>) and Halliburton's well intervention software using
+                OPC UA (Open Platform Communications Unified Architecture).
+            </p>
+        </div>
+
+        <div class="project">
+            <img id="project2" src="pics/secLogo.png" alt="Project 2">
+            <p class="projbio">As a registration coordinator for the <a href="https://tamu.estore.flywire.com/products/fall-2024-envision-conference-237591">EnVision Conference</a>, an event hosted by A&M's 
+                <a href="https://sec.tamu.edu/">Student Engineers' Council</a>, I utilized Python to organize sign-up information of participants when
+                we ran into an issue when acquiring sign-up information from the platform.
+            </p>
+        </div>
+
+        <div class="project">
+            <img id="project3" src="pics/spotifyLogo.png" alt="Project 3">
+            <p class="projbio">As a participant of <a href="https://ai-4-all.org/">AI4All</a>, I worked on a project 
+                where I used machine learning to create an algorithm that analyzed the attributes of the top 50 
+                Spotify songs of 2019 to predict the popularity of future songs, resulting in a 50% accuracy score.</p>
+        </div>
+    </div>
+    <button onclick="toggleStyle()">Toggle Style</button>
+    <script src="script.js"></script>
+</body>
+</html>
